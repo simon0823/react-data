@@ -1,14 +1,21 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+    margin: 0;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+.TableCarros {
+    float: left;
+    width: 80%;
+    margin: 30px 10%;
+    text-align: center;
+}
+
+.TableCarros thead tr:nth-child(1) {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+.TableCarros tbody tr:nth-child(odd) {
+    background-color: #ccc;
 }
